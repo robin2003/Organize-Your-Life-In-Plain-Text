@@ -1,0 +1,17 @@
+* Organize-Your-Life-In-Plain-Text
+Translate of Org Mode, Organize Your Life In Plain Text
+
+
+** Usage
+
+There are 1 file and two folders:
+
+| name                   | perpose                                       |
+| zh/                    | contain chinese translate version             |
+| en/                    | contain original english version              |
+| org-mode-translation.org | translate original version section by section |
+
+You can open org-mode-translation.org file in emacs, then use org-babel-tangle
+command to regenerate chinese translate document which will output to zh/ folder.
+
+if you find any wrong, you can tell me directly or you can file PR directly.
